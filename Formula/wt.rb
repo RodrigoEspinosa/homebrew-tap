@@ -1,8 +1,8 @@
 class Wt < Formula
   desc "Git worktree manager powered by fzf"
   homepage "https://github.com/RodrigoEspinosa/wt"
-  url "https://github.com/RodrigoEspinosa/wt/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "377c9f0b147cd43c9357514e0bcc9fac7c2479a3dfe4df4e2fe4e447451d5f8b"
+  url "https://github.com/RodrigoEspinosa/wt/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "cf07d3598ab741dc8a21ca482b6f87b88b26006d68368ed4943fba2edf6745d4"
   license "MIT"
 
   depends_on "fzf"
@@ -13,6 +13,6 @@ class Wt < Formula
   end
 
   test do
-    assert_match "wt 0.3.0", shell_output("#{bin}/wt -v")
+    assert_match "wt 0.4.0", shell_output("#{bin}/wt -v")
   end
 end
