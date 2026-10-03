@@ -1,8 +1,8 @@
 class HerdrAgentPanes < Formula
   desc "Keep coding agents' dev servers and watchers in visible herdr panes"
   homepage "https://github.com/RodrigoEspinosa/herdr-agent-panes"
-  url "https://github.com/RodrigoEspinosa/herdr-agent-panes/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "072eb46cbb81e0e881c14f211b661923a1392354cb21044f1bc8b25831c330e6"
+  url "https://github.com/RodrigoEspinosa/herdr-agent-panes/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "dfbf1423ddba679a3cf220e4a88c31f509ca517ee0caaa85f64795d64e34fc8a"
   license "MIT"
 
   depends_on "jq"
